@@ -14,13 +14,13 @@
 		A57D040E188091EE0081BD1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D040D188091EE0081BD1F /* main.m */; };
 		A57D0412188091EE0081BD1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D0411188091EE0081BD1F /* AppDelegate.m */; };
 		A57D0415188091EE0081BD1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57D0413188091EE0081BD1F /* Main.storyboard */; };
-		A57D0418188091EE0081BD1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D0417188091EE0081BD1F /* ViewController.m */; };
 		A57D041A188091EE0081BD1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57D0419188091EE0081BD1F /* Images.xcassets */; };
 		A57D0421188091EE0081BD1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D0420188091EE0081BD1F /* XCTest.framework */; };
 		A57D0422188091EE0081BD1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D0401188091EE0081BD1F /* Foundation.framework */; };
 		A57D0423188091EE0081BD1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57D0405188091EE0081BD1F /* UIKit.framework */; };
 		A57D042B188091EE0081BD1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A57D0429188091EE0081BD1F /* InfoPlist.strings */; };
 		A57D042D188091EE0081BD1F /* tempconvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D042C188091EE0081BD1F /* tempconvertTests.m */; };
+		A57D04381880921C0081BD1F /* TempConvertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A57D04371880921C0081BD1F /* TempConvertViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		A57D0410188091EE0081BD1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A57D0411188091EE0081BD1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A57D0414188091EE0081BD1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A57D0416188091EE0081BD1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A57D0417188091EE0081BD1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A57D0419188091EE0081BD1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A57D041F188091EE0081BD1F /* tempconvertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tempconvertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57D0420188091EE0081BD1F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A57D0428188091EE0081BD1F /* tempconvertTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tempconvertTests-Info.plist"; sourceTree = "<group>"; };
 		A57D042A188091EE0081BD1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A57D042C188091EE0081BD1F /* tempconvertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tempconvertTests.m; sourceTree = "<group>"; };
+		A57D04361880921C0081BD1F /* TempConvertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempConvertViewController.h; sourceTree = "<group>"; };
+		A57D04371880921C0081BD1F /* TempConvertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempConvertViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 				A57D0410188091EE0081BD1F /* AppDelegate.h */,
 				A57D0411188091EE0081BD1F /* AppDelegate.m */,
 				A57D0413188091EE0081BD1F /* Main.storyboard */,
-				A57D0416188091EE0081BD1F /* ViewController.h */,
-				A57D0417188091EE0081BD1F /* ViewController.m */,
 				A57D0419188091EE0081BD1F /* Images.xcassets */,
 				A57D0408188091EE0081BD1F /* Supporting Files */,
+				A57D04361880921C0081BD1F /* TempConvertViewController.h */,
+				A57D04371880921C0081BD1F /* TempConvertViewController.m */,
 			);
 			path = tempconvert;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A57D0418188091EE0081BD1F /* ViewController.m in Sources */,
+				A57D04381880921C0081BD1F /* TempConvertViewController.m in Sources */,
 				A57D0412188091EE0081BD1F /* AppDelegate.m in Sources */,
 				A57D040E188091EE0081BD1F /* main.m in Sources */,
 			);

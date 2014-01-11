@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TempConvertViewController.h
 //  tempconvert
 //
 //  Created by Michael Rizkalla on 1/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TempConvertViewController : UIViewController <UITextFieldDelegate>
 
 @end
